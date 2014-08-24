@@ -13,6 +13,7 @@
 		2C2A381D19AA16BD00F08CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A381B19AA16BD00F08CB9 /* Main.storyboard */; };
 		2C2A381F19AA16BD00F08CB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A381E19AA16BD00F08CB9 /* Images.xcassets */; };
 		2C2A382B19AA16BD00F08CB9 /* meinRabattTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A382A19AA16BD00F08CB9 /* meinRabattTests.swift */; };
+		2C2A383519AA240C00F08CB9 /* shopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2C2A382419AA16BD00F08CB9 /* meinRabattTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meinRabattTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2A382919AA16BD00F08CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2A382A19AA16BD00F08CB9 /* meinRabattTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meinRabattTests.swift; sourceTree = "<group>"; };
+		2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				2C2A381419AA16BD00F08CB9 /* AppDelegate.swift */,
 				2C2A381919AA16BD00F08CB9 /* ViewController.swift */,
 				2C2A381B19AA16BD00F08CB9 /* Main.storyboard */,
+				2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */,
 				2C2A381E19AA16BD00F08CB9 /* Images.xcassets */,
 				2C2A381619AA16BD00F08CB9 /* meinRabatt.xcdatamodeld */,
 				2C2A381219AA16BD00F08CB9 /* Supporting Files */,
@@ -214,6 +217,7 @@
 				2C2A381A19AA16BD00F08CB9 /* ViewController.swift in Sources */,
 				2C2A381819AA16BD00F08CB9 /* meinRabatt.xcdatamodeld in Sources */,
 				2C2A381519AA16BD00F08CB9 /* AppDelegate.swift in Sources */,
+				2C2A383519AA240C00F08CB9 /* shopTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
