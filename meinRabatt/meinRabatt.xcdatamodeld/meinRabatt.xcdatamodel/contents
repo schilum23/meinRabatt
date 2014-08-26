@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6220.14" systemVersion="14A329f" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Coupons" representedClassName="Coupons" syncable="YES">
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Shops" inverseName="coupon" inverseEntity="Shops" syncable="YES"/>
+    </entity>
+    <entity name="Shops" representedClassName="Shops" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="coupon" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Coupons" inverseName="shop" inverseEntity="Coupons" syncable="YES"/>
+    </entity>
+    <entity name="Updates" representedClassName="Updates" syncable="YES">
+        <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Shops" positionX="-63" positionY="-18" width="128" height="103"/>
+        <element name="Coupons" positionX="-335" positionY="62" width="128" height="88"/>
+        <element name="Updates" positionX="-153" positionY="99" width="128" height="60"/>
+    </elements>
 </model>

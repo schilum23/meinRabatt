@@ -14,6 +14,12 @@
 		2C2A381F19AA16BD00F08CB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C2A381E19AA16BD00F08CB9 /* Images.xcassets */; };
 		2C2A382B19AA16BD00F08CB9 /* meinRabattTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A382A19AA16BD00F08CB9 /* meinRabattTests.swift */; };
 		2C2A383519AA240C00F08CB9 /* shopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */; };
+		2C2A383919AA2AE500F08CB9 /* shopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383819AA2AE500F08CB9 /* shopTableViewController.swift */; };
+		2C2A383B19AA628700F08CB9 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383A19AA628700F08CB9 /* XMLParser.swift */; };
+		2C2A383D19ABBC8800F08CB9 /* saveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383C19ABBC8800F08CB9 /* saveData.swift */; };
+		2C2A384019ABBE8600F08CB9 /* Shops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A383F19ABBE8600F08CB9 /* Shops.swift */; };
+		2C2A384219ABBE8700F08CB9 /* Coupons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A384119ABBE8700F08CB9 /* Coupons.swift */; };
+		2CCBBA0C19AD0C17002E8929 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCBBA0B19AD0C17002E8929 /* Updates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,13 @@
 		2C2A382919AA16BD00F08CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2A382A19AA16BD00F08CB9 /* meinRabattTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meinRabattTests.swift; sourceTree = "<group>"; };
 		2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopTableViewCell.swift; sourceTree = "<group>"; };
+		2C2A383819AA2AE500F08CB9 /* shopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shopTableViewController.swift; sourceTree = "<group>"; };
+		2C2A383A19AA628700F08CB9 /* XMLParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
+		2C2A383C19ABBC8800F08CB9 /* saveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = saveData.swift; sourceTree = "<group>"; };
+		2C2A383E19ABBE8500F08CB9 /* meinRabatt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "meinRabatt-Bridging-Header.h"; sourceTree = "<group>"; };
+		2C2A383F19ABBE8600F08CB9 /* Shops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shops.swift; sourceTree = "<group>"; };
+		2C2A384119ABBE8700F08CB9 /* Coupons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coupons.swift; sourceTree = "<group>"; };
+		2CCBBA0B19AD0C17002E8929 /* Updates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Updates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +95,17 @@
 				2C2A381419AA16BD00F08CB9 /* AppDelegate.swift */,
 				2C2A381919AA16BD00F08CB9 /* ViewController.swift */,
 				2C2A381B19AA16BD00F08CB9 /* Main.storyboard */,
+				2C2A383819AA2AE500F08CB9 /* shopTableViewController.swift */,
+				2C2A383C19ABBC8800F08CB9 /* saveData.swift */,
+				2C2A383A19AA628700F08CB9 /* XMLParser.swift */,
 				2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */,
 				2C2A381E19AA16BD00F08CB9 /* Images.xcassets */,
 				2C2A381619AA16BD00F08CB9 /* meinRabatt.xcdatamodeld */,
+				2CCBBA0B19AD0C17002E8929 /* Updates.swift */,
+				2C2A384119ABBE8700F08CB9 /* Coupons.swift */,
+				2C2A383F19ABBE8600F08CB9 /* Shops.swift */,
 				2C2A381219AA16BD00F08CB9 /* Supporting Files */,
+				2C2A383E19ABBE8500F08CB9 /* meinRabatt-Bridging-Header.h */,
 			);
 			path = meinRabatt;
 			sourceTree = "<group>";
@@ -216,8 +236,14 @@
 			files = (
 				2C2A381A19AA16BD00F08CB9 /* ViewController.swift in Sources */,
 				2C2A381819AA16BD00F08CB9 /* meinRabatt.xcdatamodeld in Sources */,
+				2C2A383B19AA628700F08CB9 /* XMLParser.swift in Sources */,
+				2C2A384019ABBE8600F08CB9 /* Shops.swift in Sources */,
+				2CCBBA0C19AD0C17002E8929 /* Updates.swift in Sources */,
+				2C2A384219ABBE8700F08CB9 /* Coupons.swift in Sources */,
+				2C2A383D19ABBC8800F08CB9 /* saveData.swift in Sources */,
 				2C2A381519AA16BD00F08CB9 /* AppDelegate.swift in Sources */,
 				2C2A383519AA240C00F08CB9 /* shopTableViewCell.swift in Sources */,
+				2C2A383919AA2AE500F08CB9 /* shopTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +359,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = meinRabatt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meinRabatt/meinRabatt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -344,9 +373,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = meinRabatt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "meinRabatt/meinRabatt-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -403,6 +434,7 @@
 				2C2A383019AA16BD00F08CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C2A383119AA16BD00F08CB9 /* Build configuration list for PBXNativeTarget "meinRabattTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +443,7 @@
 				2C2A383319AA16BD00F08CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

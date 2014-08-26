@@ -12,17 +12,14 @@ class ViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let image:UIImage = UIImage(named: "meinRabatt")
-        let imageView:UIImageView = UIImageView(image: image)
-        self.navigationItem.titleView = imageView
-        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
 
 
 }
