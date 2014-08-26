@@ -22,9 +22,17 @@ class saveData: NSObject, XMLParserDelegate {
         fetchRequestMax.fetchLimit = 1;
         fetchRequestMax.sortDescriptors = [NSSortDescriptor(key: "lastUpdate", ascending: false)]
         
-        var lastUpdate: NSDate = NSDate()
+        var lastUpdate = NSDate()
+        var updates:Updates = Updates()
         if context!.executeFetchRequest(fetchRequestMax, error: nil).count > 0 {
-            lastUpdate = context!.executeFetchRequest(fetchRequestMax, error: nil).last as NSDate
+            var error: NSError?
+            updates = context!.executeFetchRequest(fetchRequestMax, error: &error).last as Updates
+            lastUpdate = updates.lastUpdate
+            if error != nil {
+                println(error?.localizedDescription)
+                
+            }
+            
         } else {
             lastUpdate = NSDate().dateByAddingTimeInterval(60*60*24*30)
         }

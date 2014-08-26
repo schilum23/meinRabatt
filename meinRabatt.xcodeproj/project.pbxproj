@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0ED90819AD1935007A4C6F /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0ED90719AD1935007A4C6F /* SwiftCoreDataHelper.swift */; };
 		2C2A381519AA16BD00F08CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A381419AA16BD00F08CB9 /* AppDelegate.swift */; };
 		2C2A381819AA16BD00F08CB9 /* meinRabatt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A381619AA16BD00F08CB9 /* meinRabatt.xcdatamodeld */; };
 		2C2A381A19AA16BD00F08CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2A381919AA16BD00F08CB9 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0ED90719AD1935007A4C6F /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
 		2C2A380F19AA16BD00F08CB9 /* meinRabatt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meinRabatt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2A381319AA16BD00F08CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C2A381419AA16BD00F08CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				2C2A381B19AA16BD00F08CB9 /* Main.storyboard */,
 				2C2A383819AA2AE500F08CB9 /* shopTableViewController.swift */,
 				2C2A383C19ABBC8800F08CB9 /* saveData.swift */,
+				2C0ED90719AD1935007A4C6F /* SwiftCoreDataHelper.swift */,
 				2C2A383A19AA628700F08CB9 /* XMLParser.swift */,
 				2C2A383419AA240C00F08CB9 /* shopTableViewCell.swift */,
 				2C2A381E19AA16BD00F08CB9 /* Images.xcassets */,
@@ -234,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0ED90819AD1935007A4C6F /* SwiftCoreDataHelper.swift in Sources */,
 				2C2A381A19AA16BD00F08CB9 /* ViewController.swift in Sources */,
 				2C2A381819AA16BD00F08CB9 /* meinRabatt.xcdatamodeld in Sources */,
 				2C2A383B19AA628700F08CB9 /* XMLParser.swift in Sources */,

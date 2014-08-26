@@ -15,8 +15,8 @@
         <attribute name="lastUpdate" optional="YES" attributeType="Date" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Shops" positionX="-63" positionY="-18" width="128" height="103"/>
         <element name="Coupons" positionX="-335" positionY="62" width="128" height="88"/>
         <element name="Updates" positionX="-153" positionY="99" width="128" height="60"/>
+        <element name="Shops" positionX="-225" positionY="81" width="128" height="105"/>
     </elements>
 </model>

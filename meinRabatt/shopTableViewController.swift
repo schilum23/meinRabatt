@@ -25,9 +25,6 @@ class shopTableViewController: UITableViewController {
         dataSave.saveInDataBase()
         
     }
-    
- 
-    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
