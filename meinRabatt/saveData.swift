@@ -13,7 +13,6 @@ let link = "http://www.mein-rabatt.com/wsMeinRabatt_Qffbbyelitnjczyrxtvqkrpsihpy
 
 class saveData: NSObject, XMLParserDelegate {
     
-    let context = (UIApplication.sharedApplication().delegate as AppDelegate).managedObjectContext
     let parser = XMLParser(url: NSURL(string: link))
 
     func saveInDataBase() {
